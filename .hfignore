@@ -1,0 +1,30 @@
+# Exclude environment folders
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Not used in the app
+books_cleaned.csv
+books_with_categories.csv
+
+# Notebooks (for development only)
+data-exploration.ipynb
+sentiment_analysis.ipynb
+text-classification.ipynb
+vector-search.ipynb
+
+# Git & IDE files
+.git/
+.gitignore
+.DS_Store
+.vscode/
+.idea/
+
+# Optional: other unused images
+*.png
+*.jpeg
+
+tagged_description.txt
